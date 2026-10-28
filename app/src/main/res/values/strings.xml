@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Denuncias Ciudadanas</string>
+    <string name="title_main">Denuncias Registradas</string>
+    <string name="title_registrar">Nueva Denuncia</string>
+    <string name="title_detalle">Detalle de Denuncia</string>
+    <string name="title_buscar">Buscar por DNI</string>
+
+    <!-- Botones y Acciones -->
+    <string name="btn_cargar_mas">Cargar 5 siguientes</string>
+    <string name="btn_registrar">Registrar Denuncia</string>
+    <string name="btn_atender">Atender denuncia</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_confirmar">Atender</string>
+
+    <!-- Formulario / Campos -->
+    <string name="lbl_dni">DNI del Ciudadano (8 dígitos)</string>
+    <string name="lbl_tipo">Tipo de Denuncia</string>
+    <string name="lbl_direccion">Dirección del Incidente</string>
+    <string name="lbl_descripcion">Descripción Detallada</string>
+    <string name="lbl_fecha">Fecha y hora (Generada automáticamente)</string>
+    <string name="lbl_estado">Estado</string>
+    <string name="lbl_id">ID de Denuncia</string>
+
+    <!-- Hints -->
+    <string name="hint_dni">Ej. 72819203</string>
+    <string name="hint_direccion">Ej. Av. Larco 123, Miraflores</string>
+    <string name="hint_descripcion">Describa brevemente lo sucedido&#8230;</string>
+    <string name="hint_buscar_dni">Ingrese DNI de 8 dígitos</string>
+
+    <!-- Estados -->
+    <string name="estado_pendiente_txt">PENDIENTE</string>
+    <string name="estado_atendida_txt">ATENDIDA</string>
+
+    <!-- Mensajes de estado / vacíos -->
+    <string name="msg_sin_denuncias">No hay denuncias registradas.</string>
+    <string name="msg_no_mas_denuncias">No hay más denuncias para mostrar.</string>
+    <string name="msg_sin_resultados_dni">El ciudadano no tiene denuncias</string>
+    <string name="msg_cargando">Cargando datos&#8230;</string>
+
+    <!-- Diálogo de Confirmación -->
+    <string name="dialog_atender_titulo">Confirmar Atención</string>
+    <string name="dialog_atender_mensaje">¿Está seguro de que desea marcar esta denuncia como atendida?</string>
+
+    <!-- Mensajes de Error y Éxito -->
+    <string name="err_dni_invalido">El DNI debe tener exactamente 8 dígitos numéricos.</string>
+    <string name="err_campo_requerido">Este campo es obligatorio.</string>
+    <string name="err_direccion_larga">La dirección no puede superar los 200 caracteres.</string>
+    <string name="err_descripcion_larga">La descripción no puede superar los 255 caracteres.</string>
+    <string name="err_conexion">No se pudo conectar, el servidor puede estar despertando. Intente de nuevo.</string>
+    <string name="success_registro">Denuncia registrada</string>
+    <string name="success_atendida">Denuncia atendida con éxito</string>
+    <string name="denuncia_ya_atendida">Esta denuncia ya ha sido atendida</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores Principales de la Aplicación (Tema Inseguridad/Seguridad Ciudadana) -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#5E92F3</color>
+    <color name="accent">#00B0FF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background_light">#F5F7FA</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Colores para Estados de la Denuncia -->
+    <!-- Estado 1: Pendiente (Naranja) -->
+    <color name="estado_pendiente">#E65100</color>
+    <color name="estado_pendiente_bg">#FFF3E0</color>
+
+    <!-- Estado 0: Atendida (Verde) -->
+    <color name="estado_atendida">#2E7D32</color>
+    <color name="estado_atendida_bg">#E8F5E9</color>
+</resources>
